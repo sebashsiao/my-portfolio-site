@@ -44,7 +44,8 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      {/* <Home name={siteProps.name} title={siteProps.title} />  // This is the original code */}
+      <Home name={<span style={{ color: "white" }}>{siteProps.name}</span>} title={<span style={{ color: "white" }}>{siteProps.title}</span>} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />

@@ -12,6 +12,7 @@ div#main {
   width: 100vw;
   flex-direction: column;
   display: flex;
+  bottom: 0;
 }
 
 section {

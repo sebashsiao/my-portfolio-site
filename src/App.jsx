@@ -26,7 +26,7 @@ import "./styles.css";
 const siteProps = {
   name: "Sebastian M. Hsiao",
   title: "AI/ML Specialist",
-  email: "mattisiao@gmail.com",
+  email: "sebashsiao@gmail.com",
   gitHub: "sebashsiao",
   instagram: "sebashsiao",
   linkedIn: "sebashsiao",

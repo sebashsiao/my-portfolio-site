@@ -28,11 +28,11 @@ const siteProps = {
   title: "AI/ML Specialist",
   email: "sebashsiao@gmail.com",
   gitHub: "sebashsiao",
-  instagram: "sebashsiao",
+  instagram: "",
   linkedIn: "sebashsiao",
-  medium: "sebashsiao",
+  medium: "",
   twitter: "sebashsiao",
-  youTube: "sebashsiao",
+  youTube: "",
   bio: "I am a passionate AI and ML Specialist with a strong background in programming \
   and data science. I am a self-starter, and I am always looking for new opportunities to learn and grow.",
 };

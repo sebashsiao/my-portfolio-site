@@ -24,26 +24,17 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Sebastian Hsiao",
+  name: "Sebastian M. Hsiao",
   title: "AI/ML Specialist",
-  email: "sebashsiao@gmail.com",
+  email: "mattisiao@gmail.com",
   gitHub: "sebashsiao",
-  instagram: "@teo_sb_",
+  instagram: "sebashsiao",
   linkedIn: "sebashsiao",
-  medium: "",
+  medium: "sebashsiao",
   twitter: "sebashsiao",
-  youTube: "Code",
-  bio: "I am an innovative Artificial Intelligence and Data Science professional, holding a rich \
-  background in project management and a passion for product design. Poised to excel in the IT industry, \
-  I'm targeting roles where I can leverage my versatile expertise to foster product innovation and success. \
-  n\What sets me apart is my dual strength in analytical rigor and creative problem-solving, combined with \
-  extensive international experience. My multilingual proficiency enhances my ability to engage with diverse, \
-  global teams, fostering collaboration, and driving impactful outcomes. \
-  \nDuring my tenure with various international entities, I have successfully coordinated complex projects \
-  and spearheaded quality management, delivering excellence under stringent timelines. My proactive approach \
-  resulted in the seamless integration of project management software, boosting operation efficiency and \
-  contributing to the successful execution of multiple projects.\
-  \nI'm eager to contribute to a team that values innovation and dynamism in the AI and product management space. I welcome introductions and would greatly appreciate any advice or insights you can share to help me further my career aspirations.",
+  youTube: "sebashsiao",
+  bio: "I am a passionate AI and ML Specialist with a strong background in programming \
+  and data science. I am a self-starter, and I am always looking for new opportunities to learn and grow.",
 };
 
 const primaryColor = "#4E567E";

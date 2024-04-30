@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/markus-spiske.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,8 +24,8 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-"I am a passionate AI and ML Specialist with a strong background in programming \
-and data science. I am a self-starter, and I am always looking for new opportunities to learn and grow.";
+"I am passionate about solving problems by leveraging machine learning\
+algorithms to integrate to AI systems.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -42,13 +42,31 @@ const skillsList = [
   "NLP",
 ];
 
+const header = "Domain Expertise and Skills";
+
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems by leveraging machine learning algorithms to integrate to AI systems.";
+const detailOrQuote = `\"I am an innovative Artificial Intelligence and Data Science professional, holding a rich 
+background in project management and a passion for product design. Poised to excel in the IT industry, 
+I'm targeting roles where I can leverage my versatile expertise to foster product innovation and success.
+
+What sets me apart is my dual strength in analytical rigor and creative problem-solving, combined with 
+extensive international experience. My multilingual proficiency enhances my ability to engage with diverse, 
+global teams, fostering collaboration, and driving impactful outcomes.
+
+During my tenure with various international entities, I have successfully coordinated complex projects 
+and spearheaded quality management, delivering excellence under stringent timelines. My proactive approach 
+resulted in the seamless integration of project management software, boosting operation efficiency and 
+contributing to the successful execution of multiple projects.
+
+I'm eager to contribute to a team that values innovation and dynamism in the AI and product management 
+space. I welcome introductions and would greatly appreciate any advice or insights you can share to help me 
+further my career aspirations.\"`.split("\n\n").map((paragraph, index) => (
+  <p key={index}>{paragraph}</p>
+));
 
 const About = () => {
   return (
@@ -56,7 +74,9 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "#282828",
+          // backgroundColor: {image},
+          WebkitTextFillColor: "white",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
@@ -66,6 +86,7 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
+        <h3>{header}</h3>
         <ul
           style={{
             textAlign: "left",
